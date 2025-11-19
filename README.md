@@ -1,11 +1,11 @@
-# 📈 User Growth & Engagement Analysis with Campaign Optimization
+#  User Growth & Engagement Analysis with Campaign Optimization
 
-## 🔍 Project Overview
+##  Project Overview
 This project performs a full end-to-end analysis of user acquisition, retention, and engagement for an e-commerce platform.  
 Using a year-long transactional dataset, it uncovers customer segments, identifies growth bottlenecks, and simulates A/B experiments to optimize marketing campaigns.  
 The project also includes an interactive dashboard (Streamlit) and exportable insights for stakeholders.
 
-## 🎯 Business Objective & Why It Matters
+##  Business Objective & Why It Matters
 E-commerce platforms grow sustainably only when user acquisition is paired with strong retention and high customer lifetime value (LTV).  
 This project focuses on answering:
 
@@ -20,7 +20,7 @@ These insights directly support:
 - Higher repeat purchases  
 - More efficient marketing campaign strategy
 
-## 📦 Dataset Description
+##  Dataset Description
 **Source:** Kaggle E-Commerce Data  
 **Type:** Transaction-level retail data (1 year)
 
@@ -32,9 +32,9 @@ Includes:
 - Country  
 - Derived fields: TotalAmount, InvoiceYearMonth, CohortMonth, RFM scores, clusters  
 
-# 🧠 Methodology
+#  Methodology
 
-## 🧹 1. Data Cleaning
+##  1. Data Cleaning
 Steps included:
 - Removed duplicates & invalid transactions  
 - Converted timestamps & standardized data types  
@@ -44,7 +44,7 @@ Steps included:
 
 Tools used: Python (pandas, numpy)
 
-## 📊 2. Exploratory Data Analysis (EDA)
+##  2. Exploratory Data Analysis (EDA)
 Performed:
 - Revenue & order trend analysis  
 - Cohort retention heatmaps  
@@ -52,7 +52,7 @@ Performed:
 - Product-level revenue contribution  
 - Time-series seasonality  
 
-## 🎯 3. RFM Segmentation
+##  3. RFM Segmentation
 Computed Recency, Frequency, Monetary metrics for each customer.
 
 Deliverables:
@@ -60,7 +60,7 @@ Deliverables:
 - Top RFM segments  
 - High-value, high-frequency, and churn-risk segments  
 
-## 👥 4. Clustering
+##  4. Clustering
 Used KMeans clustering with silhouette optimization to discover behavioral personas.
 
 Clusters included:
@@ -69,7 +69,7 @@ Clusters included:
 - Low-Frequency Explorers  
 - Dormant / Churn-Risk Users
 
-## 🧪 5. A/B Testing
+##  5. A/B Testing
 Designed and simulated experiments such as:
 - Reactivation discounts  
 - Personalized push notifications  
@@ -82,7 +82,7 @@ Included:
 - Impact measurement (lift, confidence intervals)  
 - Guardrail metrics (refund rate, AOV)
 
-# ⭐ Key Insights (3–5 bullet points)
+#  Key Insights (3–5 bullet points)
 
 - High-value customers contribute disproportionately to revenue and exhibit strong repeat behavior—ideal for retention campaigns.  
 - Churn-risk cohorts show rapid drop-off after Month 2, highlighting the need for early lifecycle nudges.  
@@ -90,36 +90,36 @@ Included:
 - Cluster 0 (top spenders) shows high frequency and monetary value, making them ideal for personalized promotions.  
 - A/B simulations indicate engagement campaigns may lift repeat purchases by 8–15% depending on segment.
 
-# 📌 Results & Recommendations
+#  Results & Recommendations
 
-### ✔ Recommendations
+###  Recommendations
 - Prioritize high-value segments for loyalty and retention programs.  
 - Target dormant but high-potential users with personalized reactivation incentives.  
 - Reallocate marketing budget to channels driving high LTV and lower churn rates.  
 - Intensify campaigns during peak months identified in seasonal revenue patterns.  
 - Use automated lifecycle journeys (Day-7, Day-30) to sustain engagement.
 
-### ✔ Outcomes
+###  Outcomes
 - Clear segmentation of customers  
 - Identified actionable growth levers  
 - Built scalable experimentation framework  
 - Delivered dashboards for ongoing monitoring  
 
-# 🖼 Screenshots
+#  Screenshots
 
-### 📈 Monthly Revenue Trend
-![Monthly Revenue](dashboard_images/monthly_revenue.png)
+###  Monthly Revenue Trend
+![Monthly Revenue](monthly_revenue.png)
 
-### 🔥 Cohort Retention Heatmap
-![Cohort Retention](dashboard_images/cohort_retention.png)
+###  Cohort Retention Heatmap
+![Cohort Retention](cohort_retention.png)
 
-### 🎯 RFM Segments
-![RFM Pie](dashboard_images/rfm_pie.png)
+###  RFM Segments
+![RFM Pie](rfm_pie.png)
 
-### 👥 Cluster Distribution  
-![Cluster Bar](dashboard_images/cluster_bar.png)
+###  Cluster Distribution  
+![Cluster Bar](cluster_bar.png)
 
-# 🧪 How to Run the Notebook
+#  How to Run the Notebook
 
 ### 1. Open in Colab
 Upload the notebook and dataset then run all cells.
