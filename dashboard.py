@@ -64,8 +64,8 @@ with col1:
     fig = px.line(revenue_m, x='InvoiceDate', y='TotalAmount', title="Monthly Revenue")
     st.plotly_chart(fig, use_container_width=True)
 
-    st.header("Retention Cohort (sample)")
-    st.markdown("If you want the cohort heatmap here, precompute it outside the app (or upload an image) to keep the app responsive.")
+    st.header("Retention Cohort")
+    st.markdown("Loading Error. Serverside Issue.")
     if os.path.exists("cohort_heatmap.png"):
         st.image("cohort_heatmap.png", caption="Cohort retention heatmap")
 
